@@ -51,4 +51,5 @@ iface eth0 inet static
 
 # General
 * How would you ensure any change made to this Dockerfile is source controlled, approved, tested and deployed. Explain which tools you will use as if this was going into a production environment.
+`add Dockerfile to a git repo, use jenkins pipeline to build, test and push the image to the image registry, then deploy`
 * Commit and push your changes.
