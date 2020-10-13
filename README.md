@@ -20,7 +20,7 @@ iface eth0 inet static
 * If the DNS server you've just added is not reachable, how can you get any particular hostname to resolve locally? 
 `add entry to /etc/hosts`
 * How would you check for SELinux related errors?
-`sealert command`
+`sealert command or /var/log/audit/audit.log file`
 * Write the commands to add 30GB disk space to a logical volume named "docker" that belongs to a logical group named "docker-group".
 `lvextend -L +30GB /dev/docker-group/docker `
 * In the root of this repository, create a Bash script called "listit.sh", when executed, this script must do the following (in order):
